@@ -11,6 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:theme="@style/Toolbar"
             android:name=".ui.DetailPelanggaran">
 
         </activity>
@@ -21,7 +22,9 @@
         </activity>
         <activity
             android:name=".ui.SplashScreenActivity"
-            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar"></activity>
+            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar">
+
+        </activity>
         <activity
             android:name=".ui.MainActivity"
             android:label="@string/app_name">

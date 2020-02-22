@@ -1,31 +1,18 @@
 package com.scc.bukusakuonline.ui;
 
-import android.content.Intent;
 import android.os.Bundle;
-import android.view.MenuItem;
-import android.view.View;
 
-import com.google.android.material.bottomnavigation.BottomNavigationView;
-import com.ittianyu.bottomnavigationviewex.BottomNavigationViewInner;
-import com.scc.bukusakuonline.R;
-import com.scc.bukusakuonline.ui.dashboard.DashboardFragment;
-import com.scc.bukusakuonline.ui.history.HistoryFragment;
-import com.scc.bukusakuonline.ui.home.HomeFragment;
-import com.scc.bukusakuonline.ui.pengaduan.PengaduanFragment;
-import com.scc.bukusakuonline.ui.profile.ProfileFragment;
-
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
-import androidx.fragment.app.Fragment;
-import androidx.fragment.app.FragmentTransaction;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
+import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.scc.bukusakuonline.R;
+
 public class MainActivity extends AppCompatActivity  {
-    Fragment fragment;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
