@@ -5,6 +5,7 @@
     android:id="@+id/mobile_navigation"
     app:startDestination="@+id/navigation_home">
 
+
     <fragment
         android:id="@+id/navigation_home"
         android:name="com.scc.bukusakuonline.ui.home.HomeFragment"
@@ -35,7 +36,5 @@
         android:name="com.scc.bukusakuonline.ui.pengaduan.PengaduanFragment"
         android:label="@string/pengaduan"
         tools:layout="@layout/fragment_pengaduan">
-
-
     </fragment>
 </navigation>

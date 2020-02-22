@@ -22,9 +22,31 @@
     <string name="keluar">Keluar</string>
     <string name="detail_pelanggaran">Detail Pelanggaran</string>
     <string name="kelas">Kelas</string>
-    <string name="kategori_pelanggaran">Kategori Pelanggaran</string>
+    <string name="kategori_pelanggaran">Pilih Kategori</string>
     <string name="point_pelanggaran">Point Pelanggaran</string>
     <string name="aturan_yang_dilanggar">Aturan yang dilanggar</string>
     <string name="pelapor">Pelapor</string>
     <string name="bukti">Bukti</string>
+    <string name="upload_bukti">Upload Bukti</string>
+    <string name="laporkan_pelanggaran">Laporkan Pelanggaran</string>
+    <string name="laporkan">Laporkan</string>
+    <string name="contoh_nis">Contoh : 3103117342</string>
+    <string name="nis">NIS</string>
+    <string name="kategori_pasal">Pilih Pasal</string>
+
+    <string-array name="spinner_kategori">
+        <item>Pilih Kategori</item>
+        <item>Nakal</item>
+        <item>Rambut</item>
+        <item>Telat</item>
+        <item>Minggat</item>
+    </string-array>
+    <string-array name="spinner_pasal">
+        <item>Pilih Pasal</item>
+        <item>Pasal 1</item>
+        <item>Pasal 2</item>
+        <item>Pasal 3</item>
+        <item>Pasal 4</item>
+    </string-array>
+
 </resources>
